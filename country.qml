@@ -16,7 +16,7 @@ Flickable{
         visible: (details!=null)
         verticalAlignment: Qt.AlignRight
         font.pointSize: 14
-        wrapMode: Text.WordWrap
+        wrapMode: Text.Wrap
         text: (details==null)? " " :getDetails()
 
 
